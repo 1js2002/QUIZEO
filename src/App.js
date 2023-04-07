@@ -1,3 +1,4 @@
+import "./styles.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Settings from "./pages/Settings";
 import Questions from "./pages/Questions";
@@ -13,7 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={
                 <>
-                <Typography variant="h2" fontWeight="bold">
+                <Typography variant="h2" fontWeight="bold" color="black">
                     QUIZEO
                 </Typography>   
                 <Settings/>
